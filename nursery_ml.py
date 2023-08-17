@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-# Load the Car Evaluation dataset from a local file
+# Load the Nursery dataset from a local file
 file_path = "nursery.data"  # Replace with your actual path
 column_names = ["parents", "has_nurs", "form", "children", "housing", "finance", "social", "health", "class"]
 data = pd.read_csv(file_path, header=None, names=column_names)
